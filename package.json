@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-event-loop-playground",
+  "version": "1.0.0",
+  "description": "Learn Node.js concurrency: Call Stack, Event Loop, Microtasks, Macrotasks, Promises, Worker Threads — with interview questions and a PDF Generator demo.",
+  "main": "index.js",
+  "scripts": {
+    "01:call-stack": "node src/01-call-stack/index.js",
+    "02:event-loop": "node src/02-event-loop/index.js",
+    "03:microtask": "node src/03-microtask-queue/index.js",
+    "04:macrotask": "node src/04-macrotask-queue/index.js",
+    "05:promises": "node src/05-promises/index.js",
+    "06:nexttick": "node src/06-process-nexttick/index.js",
+    "07:setimmediate": "node src/07-set-immediate/index.js",
+    "08:worker-threads": "node src/08-worker-threads/index.js",
+    "pdf:without-worker": "node pdf-generator/without-worker/server.js",
+    "pdf:with-worker": "node pdf-generator/with-worker/server.js",
+    "interview": "node interview-questions/all-questions.js"
+  },
+  "keywords": ["nodejs", "event-loop", "worker-threads", "promises", "concurrency", "interview"],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
